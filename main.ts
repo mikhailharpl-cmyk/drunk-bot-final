@@ -30,7 +30,6 @@ bot.on("inline_query", async (ctx) => {
         }
     }]);
 });
-
 bot.start({
     drop_pending_updates: true
 });
